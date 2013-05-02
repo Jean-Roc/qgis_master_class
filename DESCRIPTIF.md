@@ -1,7 +1,19 @@
-QGIS Master Class
+QGIS Master Class - Rencontres SIG La Lettre 2013 
+==========================================================
 
-Une prise en main de 2h de QGIS, en Français, pour présenter aux rencontres SIG La Lettre 2011.
+Ce répertoire contient l'ensemble de la documentation réalisée pour la session du mardi 11 juin 2013.
 
-Vincent Picavet <vincent.picavet@oslandia.com>
-Jean-Roc Morreale <jr.morreale@enoreth.net>
+Les rédacteurs sont :
+* Jean-Roc Morreale
+* Pierre-André Le Ny
+* René-Luc D'Hont
+
+Le but est de faire découvrir les possibilités d'automatisation des processus avec SEXTANTE 
+et l'automatisation de la génération de carte avec Atlas.
+
+La doc sera conçue via Shpinx/RST
+
+
+
+
 
