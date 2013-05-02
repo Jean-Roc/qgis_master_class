@@ -1,7 +1,22 @@
-QGIS Master Class
+Atelier QGIS - SIG-LL 2013
+==========================
 
-Une prise en main de 2h de QGIS, en Français, pour présenter aux rencontres SIG La Lettre 2011.
+Descriptif :
+^^^^^^^^^^^^^
 
-Vincent Picavet <vincent.picavet@oslandia.com>
-Jean-Roc Morreale <jr.morreale@enoreth.net>
+Cet atelier a pour but de présenter :
+* l'automatisation de processus via SEXTANTE
+* l'automatisation de création de multiples cartes via Atlas
 
+Participants :
+^^^^^^^^^^^^^^^
+
+* Jean-Roc Morreale
+* Pierre-André Le Ny
+* René-luc D'Hont
+
+Documentation :
+^^^^^^^^^^^^^^^^
+
+* Rédigé en Sphinx/RST
+* Utilisation du style du manuel utilisateur QGIS
