@@ -1,4 +1,5 @@
-sphinx-build -b html ./build/html
-sphinx-build -b latex ./build/latex
-cd ./build/latex
+cd /stockage/qgis_master_class/documentation/
+sphinx-build -b latex ./rst/ ./rst/build/latex
+cd ./rst/build/latex
 make all-pdf
+cd ../../../
