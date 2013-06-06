@@ -1,0 +1,211 @@
+<Composer title="exemple" visible="1">
+ <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" printAsRaster="0">
+  <ComposerLabel valign="128" labelText="[% $page %] / [% $numpages %]" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="11.6" x="142.7" transparency="0" y="190.63" rotation="0" height="9.02168" positionMode="4" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="2.6019" uuid="{be2cc859-d536-43ac-a988-be88476a41b0}" id="" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerScaleBar penColor="#000000" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="1" brushColor="#000000" numSegments="2" segmentMillimeters="11.7569" fontColor="#000000" font="Arial,8,-1,5,50,0,0,0,0,0" numUnitsPerSegment="500" units="1" labelBarSpace="3" outlineWidth="0.5" numSegmentsLeft="0" height="2" mapId="0" boxContentSpace="1" unitLabel=" km">
+   <ComposerItem width="33.5158" x="211.185" transparency="0" y="168.4" rotation="0" height="9.6" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="2.6019" uuid="{c1c1be3e-6ad2-48ef-a27d-c891f92e5987}" id="" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerLegend symbolWidth="7" title="" boxSpace="2" splitLayer="0" equalColumnWidth="1" map="1" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="2">
+   <styles>
+    <style name="title" font="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1" name="group" font="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="subgroup" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" marginLeft="2" name="symbolLabel" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <Model autoUpdate="1">
+    <LayerItem layerId="ocsgen0920130603173027475" userText="Ville contre champs" style="group" text="Ville contre champs" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="TERRES CULTIVEES">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="255,170,0,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+        <layer pass="0" class="SVGFill" locked="0">
+         <prop k="angle" v="5"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="pattern_width_unit" v="MM"/>
+         <prop k="svgFile" v="/cereale.svg"/>
+         <prop k="svgFillColor" v="#000000"/>
+         <prop k="svgOutlineColor" v="#000000"/>
+         <prop k="svgOutlineWidth" v="1"/>
+         <prop k="svgOutlineWidth_expression" v="svgOutlineWidth_expression"/>
+         <prop k="svg_outline_width_unit" v="MM"/>
+         <prop k="width" v="6"/>
+         <symbol alpha="1" type="line" name="@classificationSymbol@1">
+          <layer pass="0" class="SimpleLine" locked="0">
+           <prop k="capstyle" v="square"/>
+           <prop k="color" v="0,0,0,255"/>
+           <prop k="customdash" v="5;2"/>
+           <prop k="customdash_unit" v="MM"/>
+           <prop k="joinstyle" v="bevel"/>
+           <prop k="offset" v="0"/>
+           <prop k="offset_unit" v="MM"/>
+           <prop k="penstyle" v="solid"/>
+           <prop k="use_custom_dash" v="0"/>
+           <prop k="width" v="0.26"/>
+           <prop k="width_unit" v="MM"/>
+          </layer>
+         </symbol>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="ZONES URBAINES">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SVGFill" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="pattern_width_unit" v="MM"/>
+         <prop k="svgFile" v="/beton.svg"/>
+         <prop k="svgFillColor" v="#000000"/>
+         <prop k="svgOutlineColor" v="#000000"/>
+         <prop k="svgOutlineWidth" v="1"/>
+         <prop k="svgOutlineWidth_expression" v="svgOutlineWidth_expression"/>
+         <prop k="svg_outline_width_unit" v="MM"/>
+         <prop k="width" v="40"/>
+         <symbol alpha="1" type="line" name="@classificationSymbol@0">
+          <layer pass="0" class="SimpleLine" locked="0">
+           <prop k="capstyle" v="square"/>
+           <prop k="color" v="0,0,0,255"/>
+           <prop k="customdash" v="5;2"/>
+           <prop k="customdash_unit" v="MM"/>
+           <prop k="joinstyle" v="bevel"/>
+           <prop k="offset" v="0"/>
+           <prop k="offset_unit" v="MM"/>
+           <prop k="penstyle" v="solid"/>
+           <prop k="use_custom_dash" v="0"/>
+           <prop k="width" v="0.26"/>
+           <prop k="width_unit" v="MM"/>
+          </layer>
+         </symbol>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+   </Model>
+   <ComposerItem width="49" x="45" transparency="0" y="161" rotation="0" height="24.4" positionMode="4" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="2.6019" uuid="{25ef16c2-7f4a-4fa0-a2f9-fdfb148200f4}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerLabel valign="128" labelText="Sous-préfecture : &#xa;[% &quot;NOM_COMM&quot; %]" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="56.1483" x="120.426" transparency="0" y="16.9107" rotation="0" height="16.9399" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.6019" uuid="{cd7baab0-28ba-4bc6-9a75-db09838d8b78}" id="" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerMap keepLayerSet="true" overviewFrameMap="0" id="1" previewMode="Cache" drawCanvasItems="true">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="0" overviewInverted="false">
+    <symbol alpha="1" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,125"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="solid"/>
+      <prop k="width_border" v="0.5"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="6.98271e+06" xmin="591193" ymax="7.11351e+06" xmax="791704"/>
+   <LayerSet>
+    <Layer>region_npdc20130604133228009</Layer>
+   </LayerSet>
+   <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="flat"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0.3"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+     <fontColor red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <ComposerItem width="62.9982" x="45" transparency="0" y="40" rotation="0" height="41.0947" positionMode="0" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.6019" uuid="{52f5ebcd-8096-4985-9553-97f6e9914bd7}" id="" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerMap keepLayerSet="true" overviewFrameMap="-1" id="0" previewMode="Render" drawCanvasItems="true">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,125"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="7.01396e+06" xmin="684412" ymax="7.01911e+06" xmax="693609"/>
+   <LayerSet>
+    <Layer>region_npdc20130604133228009</Layer>
+    <Layer>communes_npdc20130604140954659</Layer>
+    <Layer>ocsgen0920130603173027475</Layer>
+    <Layer>alti_npdc20130604120629999</Layer>
+   </LayerSet>
+   <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="flat"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0.3"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+     <fontColor red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <ComposerItem width="216" x="45" transparency="0" y="40" rotation="0" height="121" positionMode="0" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.6019" uuid="{ec82f8bf-f05e-4302-bf2f-df58f0d7a942}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+ </Composition>
+ <Atlas hideCoverage="false" featureFilter=" &quot;STATUT&quot; LIKE 'Sous-préfecture' " coverageLayer="communes_npdc20130604140954659" fixedScale="false" composerMap="0" singleFile="true" filenamePattern="'output_'||$feature" enabled="true" filterFeatures="true" sortFeatures="true" sortKey="0" sortAscending="false" margin="0.1"/>
+</Composer>
