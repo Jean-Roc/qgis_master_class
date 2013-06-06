@@ -52,6 +52,9 @@ ajouter le nombre de page
 
 Ajoutez une nouvelle étiquette avec l'expression *[% $page %] / [% $numpages %]*.
 
+..	figure:: ./fig/atlas.png
+	:align: center
+	:scale: 80%
 
 Paramétrer l'atlas
 -------------------

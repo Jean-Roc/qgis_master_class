@@ -55,19 +55,29 @@ Activez l'affichage des tampons et des ombres en cochant les cases des panneaux 
 
 Dans le panneau *Rendering*, activez la visibilité selon l'échelle avec un maximum de 85.000.
 
+..	figure:: ./fig/etiquettes.png
+	:align: center
+	:scale: 70%
+
 Maintenant déplacez-vous dans l'onglet *Style* et choisissez dans la liste le mode *Ensemble de règle*. Ce mode permet de définir des règles de symbologie de manière à avoir plusieurs représentations graphiques adaptées aux différentes échelles sans multiplier les couches. Nous allons ici simplement définir deux règles basées sur l'échelle de visualisation :
 
 - un contour à petite échelle : apparent entre le 100.000e et le 1.000.000e
 - un contour à grande échelle : apparent entre le 1.000 et le 99.999e
+
+..	figure:: ./fig/ensemble_regle.png
+	:align: center
+	:scale: 70%
 
 Occupation des sols
 ------------------------------------
 
 Importez la couche *ocsgen09* depuis *./donnees/vecteurs/occupation_sol* et définissez le mode à *Catégoriser*.  Sélectionnez la colonne *THEME09* et cliquez sur le bouton *Classer*. Utilisez le bouton *Effacer* pour ne conserver que les classes *ZONES URBAINES* et *TERRES CULTIVEES*.
 
-Double-cliquez sur la classe des terres cultivées, cliquez sur l'icône **+** et choisissez *Remplissage SVG* comme *Type de symbole*. DAns le cadre d'aperçus, séléctionner le symbole *cereale*. Adaptez la taille de la largeur de texture.
+Nous allons utiliser des symboles et des textures SVG et pour ce faire nous devons indiquer à QGIS dans quel répertoire ils se situent. Ouvrez le menu :menuselection:`Préférences --> Options --> Système` et dans le bloc *Chemins SVG*, ajoutez le répertoire *./donnees/textures*.
 
-Double-cliquez sur la classe des zones urbaines, faites la même manipulation et sélectionner la texture béton.
+Double-cliquez sur la classe des terres cultivées, cliquez sur l'icône **+** et choisissez *Remplissage SVG* comme *Type de symbole*. DAns le cadre d'aperçus, séléctionnez le symbole *cereale*. Adaptez la taille de la largeur de texture.
+
+Double-cliquez sur la classe des zones urbaines, faites la même manipulation et sélectionnez la texture béton.
 
 Nous allons définir deux modes de fusion :
 
@@ -75,3 +85,11 @@ Nous allons définir deux modes de fusion :
 - *feature blending mode* avec *Lumière douce* pour définir la transparence entre les objets de la couche
 
 Dans l'onglet *Général*, activez la visibilité dépendante de l'échelle et définissez un seuil minimal au 85.000e.
+
+..	figure:: ./fig/motif_symbole.png
+	:align: center
+	:scale: 70%
+	
+..	figure:: ./fig/motif_resultat.png
+	:align: center
+	:scale: 100%

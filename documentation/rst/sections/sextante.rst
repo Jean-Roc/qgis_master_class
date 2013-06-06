@@ -67,6 +67,10 @@ Puis le traitement *Dissolve*.
 
 Ce traitement récupére les départements sélectionnées et va les fusionner afin d'obtenir une seule géométrie.
 
+..	figure:: ./fig/sextante_model.png
+	:align: center
+	:scale: 80%
+
 Importer des données raster
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -118,6 +122,10 @@ Enregistrez votre modèle.
 Cliquez sur OK pour lancer l'opération. Voilà, vous venez d'obtenir vos résultats en ayant utilisé deux logiciels autre que QGIS (GDAL et SAGA) de manière transparente et reproductible.
 
 Un modèle correct est disponibles dans le répertoire *./donnees/model*.
+
+..	figure:: ./fig/sextante_saisie.png
+	:align: center
+	:scale: 80%
 
 Excercices complémentaires
 ---------------------------
