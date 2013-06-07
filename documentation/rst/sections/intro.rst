@@ -32,8 +32,16 @@ Description de l'ensemble des unités administratives du territoire national.
 
 http://professionnels.ign.fr/geofla
 
-Occupation du sol 2009- Région
-"""""""""""""""""""""""""""""""""""
+Occupation du sol
+"""""""""""""""""
+
+Données d'occupation des sols  de 2009 du Conseil Régional du Nord-Pas de Calais.
 
 http://sigale.nordpasdecalais.fr/
 
+Ce document
+------------
+
+Toutes les sources ayant servi à l'élaboration de ce document sont disponibles en ligne. La documentation est sous licence CC BY-SA.
+
+https://github.com/Jean-Roc/qgis_master_class
