@@ -125,7 +125,7 @@ Un modèle correct est disponibles dans le répertoire *./donnees/model*.
 
 ..	figure:: ./fig/sextante_saisie.png
 	:align: center
-	:scale: 80%
+	:scale: 60%
 
 Excercices complémentaires
 ---------------------------

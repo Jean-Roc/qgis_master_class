@@ -28,7 +28,7 @@ Dans la légende du projet, assurez-vous d'avoir les couches suivantes actives :
 Dans *propriétés de l'objet*, cochez sur *Verrouiller les couches pour cette carte* dans les propriétés principales et ajoutez un cadre. 
 
 
-créer la carte secondaire
+créer la carte d'aperçu
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ne conservez que la couche de la région active et zoomez sur son emprise. Dans le composeur, ajoutez une carte plus réduite que la précédence et verrouillez ses couches. Placez là dans le coin supérieur gauche de la carte principale et modifiez sa taille et on échelle pour avoir l'ensemble de la région affichée.
@@ -45,7 +45,7 @@ Allez dans :menuselection:`Mise en page --> Ajouter une étiquette` et placez-l�
 ajouter une légende
 ^^^^^^^^^^^^^^^^^^^^
 
-Activez la couche d'occupationdes sols et allez dans :menuselection:`Mise en page --> Ajouter une légende`. Assurez-vous que les propriétés principales indiquent que la légende est en rapport avec la carte 0;
+Activez la couche d'occupation des sols et allez dans :menuselection:`Mise en page --> Ajouter une légende`. Assurez-vous que les propriétés principales indiquent que la légende est en rapport avec la carte 0;
 
 ajouter le nombre de page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -57,7 +57,7 @@ Dans le panneau *Rendering*, activez la visibilité selon l'échelle avec un max
 
 ..	figure:: ./fig/etiquettes.png
 	:align: center
-	:scale: 70%
+	:scale: 50%
 
 Maintenant déplacez-vous dans l'onglet *Style* et choisissez dans la liste le mode *Ensemble de règle*. Ce mode permet de définir des règles de symbologie de manière à avoir plusieurs représentations graphiques adaptées aux différentes échelles sans multiplier les couches. Nous allons ici simplement définir deux règles basées sur l'échelle de visualisation :
 
@@ -66,7 +66,7 @@ Maintenant déplacez-vous dans l'onglet *Style* et choisissez dans la liste le m
 
 ..	figure:: ./fig/ensemble_regle.png
 	:align: center
-	:scale: 70%
+	:scale: 60%
 
 Occupation des sols
 ------------------------------------
@@ -79,17 +79,13 @@ Double-cliquez sur la classe des terres cultivées, cliquez sur l'icône **+** e
 
 Double-cliquez sur la classe des zones urbaines, faites la même manipulation et sélectionnez la texture béton.
 
+..	figure:: ./fig/motif_symbole_resultat.png
+	:align: center
+	:scale: 60%
+	
 Nous allons définir deux modes de fusion :
 
 - *layer blending mode* avec *Multiplier* pour définir la transparence de cette couche avec les autres couches du projet
 - *feature blending mode* avec *Lumière douce* pour définir la transparence entre les objets de la couche
 
 Dans l'onglet *Général*, activez la visibilité dépendante de l'échelle et définissez un seuil minimal au 85.000e.
-
-..	figure:: ./fig/motif_symbole.png
-	:align: center
-	:scale: 70%
-	
-..	figure:: ./fig/motif_resultat.png
-	:align: center
-	:scale: 100%
