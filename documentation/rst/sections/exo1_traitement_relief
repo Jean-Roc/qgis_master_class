@@ -5,7 +5,7 @@ Nous allons créer une représentation du relief de la région du Nord-Pas-de-Ca
 
 Commençons par ouvrir le projet *atelier_qgis.qgs* (*./qgis_master_class/projets*) puis ouvrez le modeleur via le  menu *Traitement --> Modeleur graphique*.
 
-Une nouvelle fenêtre s'ouvre, saisissez un nom de modèle (ex: relief) et un nom de groupe (p. ex. *Analyses auto*). Ces noms n'ont pas d'importance dans cet excercice mais permettent de grouper différents modèles dans un même groupe qui est apparent dans la boîte à outil de Sextante.
+Une nouvelle fenêtre s'ouvre, saisissez un nom pour identifier le modèle (ex: relief) et un nom de groupe (p. ex. *Analyses FOSS4G*). Ces noms n'ont pas d'importance dans cet excercice mais permettent de grouper différents modèles dans un même groupe qui est apparent dans la boîte à outil de Sextante.
 
 Importer des données vecteurs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -23,7 +23,7 @@ Sélectionner la région
 
 Déplacez-vous dans l'onglet *Algorithmes*, recherchez le module *Select by attributes*.
 
-- *Input Layer* : Region
+- *Input Layer* : Departements
 - *Selection attribute* : CODE_REG
 - *Comparison* : ==
 - *Value* : 31
@@ -38,10 +38,6 @@ Puis le traitement *Dissolve*.
 - *Dissolved <OutputVector>* : Couche vecteur de la région NPDC
 
 Ce traitement récupére les départements sélectionnées et va les fusionner afin d'obtenir une seule géométrie.
-
-..	figure:: ./fig/sextante_model.png
-	:align: center
-	:scale: 80%
 
 Importer des données raster
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -74,6 +70,10 @@ Sélectionnez le traitement *Analytical Hillshading*.
 
 Ce traitement va utiliser le raster découpé pour créer une couche d'ombrage de relief.
 
+..	figure:: ./fig/sextante_model_relief.png
+	:align: center
+	:scale: 80%
+
 Obtenir les résultats
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -102,6 +102,8 @@ Un modèle correct est disponibles dans le répertoire *./donnees/model*.
 Excercices complémentaires
 ---------------------------
 
-Créez un nouveau modèle et utilisez la couche COMMUNES pour obtenir une couche ne comportant que les communes du Pas-de-Calais (code de département 62)
+Vous pouvez ajouter les traitements suivants au modèle :
 
-Etendez le modèle de l'excercice  précédent en ajoutant un traitement pour obtenir une carte des pentes.
+- *Contour lines from grid* pour obtenir des courbes altimétriques
+- *Watershed basins" pour obtenir les bassins versants
+- *r.slope.aspect* ou *Slope, aspect, curvature* pour obtenir des cartes de pente ou d'aspect

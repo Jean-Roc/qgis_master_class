@@ -64,7 +64,7 @@ Ce module va nous permettre d'obtenir des polygones représentants un espace aut
 - *Dissolve* : Yes
 - *Output* : zone tampon
 
-Créer une carte de densité5
+Créer une carte de densité
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ce module va créer une carte de chaleur des sites encore en activité.
