@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'QGIS'
-copyright = u'OSGEO - 2013'
+copyright = u'OSGEO - 2014'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -103,10 +103,10 @@ html_theme_path = ['..']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Atelier QGIS 2.0 - Rencontre SIGLL 2013"
+html_title = "Atelier QGIS 2.2 - FOSS4G-fr 2014"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = "Atelier QGIS 2.0"
+html_short_title = "Atelier QGIS 2.2"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -142,10 +142,10 @@ html_sidebars = {
 #html_additional_pages = {}
 
 # If false, no module index is generated.
-html_domain_indices = fasle
+#html_domain_indices = false
 
 # If false, no index is generated.
-html_use_index = false
+#html_use_index = false
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False
@@ -190,7 +190,7 @@ latex_elements = {
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
-latex_documents = [('index', 'atelier_qgis.tex', u'Atelier QGIS 2.0',
+latex_documents = [('index', 'atelier_qgis.tex', u'Atelier QGIS 2.2',
    u'OSGEO', 'manual'),]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -219,7 +219,7 @@ latex_documents = [('index', 'atelier_qgis.tex', u'Atelier QGIS 2.0',
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'atelier_qgis', u'Atelier QGIS 2.0',
+    ('index', 'atelier_qgis', u'Atelier QGIS 2.2',
      [u'OSGEO'], 1)
 ]
 
@@ -233,9 +233,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'manuel_admin_sia', u'Documentation administrateur du SIA',
-   u'Centre départemental d\'Archéologie - CG62', 'manuel_admin_sia', 'One line description of project.',
-   'Miscellaneous'),
+  ('index', 'atelier_qgis', u'Atelier QGIS 2.2',
+   u'OSGEOfr', 'atelier_qgis'),
 ]
 
 # Documents to append as an appendix to all manuals.
