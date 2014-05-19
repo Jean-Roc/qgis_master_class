@@ -1,6 +1,5 @@
-*Excercice 2 : les sites pollués
+Excercice 2 : les sites pollués
 -------------------------------
-
 
 Importer des données vecteurs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -75,4 +74,8 @@ Ce module va créer une carte de chaleur des sites encore en activité.
 - *Weight* : poid
 - *Radius* : 1000
 - *Cellsize* : 100
+
+..	figure:: ./fig/traitement_basias.png
+	:align: center
+	:scale: 50%
 

@@ -1,5 +1,5 @@
 Excercice 1 : le relief du Nord-Pas-de-Calais
----------------------------------------------------------
+---------------------------------------------
 
 Nous allons créer une représentation du relief de la région du Nord-Pas-de-Calais en utilisant les jeux de données fournis qui se situent dans le répertoire *./qgis_master_class/donnees*. Cet excercice va nous permettre de travailler avec des données vecteurs et raster, le but est d'obtenir un modèle numérique de terrain limité à la région.
 
@@ -70,9 +70,9 @@ Sélectionnez le traitement *Analytical Hillshading*.
 
 Ce traitement va utiliser le raster découpé pour créer une couche d'ombrage de relief.
 
-..	figure:: ./fig/sextante_model_relief.png
+..	figure:: ./fig/traitement_model_relief.png
 	:align: center
-	:scale: 80%
+	:scale: 60%
 
 Obtenir les résultats
 ^^^^^^^^^^^^^^^^^^^^^
@@ -95,15 +95,20 @@ Cliquez sur OK pour lancer l'opération. Voilà, vous venez d'obtenir vos résul
 
 Un modèle correct est disponibles dans le répertoire *./donnees/model*.
 
-..	figure:: ./fig/sextante_saisie.png
+..	figure:: ./fig/traitement_saisie.png
 	:align: center
-	:scale: 60%
+	:scale: 40%
+
 
 Excercices complémentaires
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Vous pouvez ajouter les traitements suivants au modèle :
 
 - *Contour lines from grid* pour obtenir des courbes altimétriques
-- *Watershed basins" pour obtenir les bassins versants
+- *Watershed basins* pour obtenir les bassins versants
 - *r.slope.aspect* ou *Slope, aspect, curvature* pour obtenir des cartes de pente ou d'aspect
+
+..	figure:: ./fig/resultat_relief.png
+	:align: center
+	:scale: 60%
