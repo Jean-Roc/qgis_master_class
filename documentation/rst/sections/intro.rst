@@ -1,19 +1,19 @@
 Introduction
 ============
 
-Ce document est le support de travail de l'atelier Quantum GIS effectué dans le cadre des Rencontres SIG La Lettre 2013. Son but est de faire découvrir aux participants quelques unes des nouvelles fonctionnalités presentes dans la version 2 du logiciel.
+Ce document est le support de travail de l'atelier QGIS effectué dans le cadre du FOSS4G-fr 2014. Son but est de faire découvrir aux participants quelques fonctionnalités presentes dans la version 2 du logiciel.
 
 Logiciels utilisés
 --------------------
 
-la version de QGIS utilisée provient du dépôt OSGEO4W et du paquet qgis-dev, la version de Sextante est la 1.1.
-
-L'environnement de l'atelier est une machine virtuelle Virtualbox de Windows XP SP3.
+La version de QGIS utilisée est la 2.2, le système d'exploitation utilisé est la distribution linux OSGEOLive 7.9 (live.osgeo.org).
 
 Données utilisées
 -----------------------------
 
 La totalité des données utilisées dans le cadre de l'atelier sont disponibles au téléchargement, les métadonnées accompagnent chaque jeu. Veuillez vous y référer pour vous renseigner sur les conditions d'utilisations.
+
+Adresse du dépôt : https://github.com/OSGeo-fr/qgis_master_class
 
 IGN
 ^^^^
@@ -39,9 +39,14 @@ Données d'occupation des sols  de 2009 du Conseil Régional du Nord-Pas de Cala
 
 http://sigale.nordpasdecalais.fr/
 
+BASIAS
+""""""
+
+Base des anciens sites industriels et activités de service.
+
+http://basias.brgm.fr/
+
 Ce document
 ------------
 
-Toutes les sources ayant servi à l'élaboration de ce document sont disponibles en ligne. La documentation est sous licence CC BY-SA.
-
-https://github.com/Jean-Roc/qgis_master_class
+La documentation est disponible sous licence CC BY-SA.
