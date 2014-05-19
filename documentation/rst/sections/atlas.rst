@@ -76,7 +76,7 @@ ajouter une légende
 Activez la couche d'occupation des sols et allez dans *Mise en page --> Ajouter une légende*. Assurez-vous que les propriétés principales indiquent que la légende est en rapport avec la carte 0;
 
 ajouter le nombre de page
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ajoutez une nouvelle étiquette avec l'expression *[% $page %] / [% $numpages %]*.
 

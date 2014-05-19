@@ -42,7 +42,7 @@ Styles vecteurs
 Le panneau vecteur est maintenant organisé en un arbre hiérarchisé, chaque niveau permettant de paramétrer des détails différents.
 
 Le département
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 Allez dans les propriétés de la couche puis dans le panneau de style. Sélectionnez *Remplissage simple* et dans la liste de style de remplissage, choisissez *Pas de brosse* pour que l'intérieur du polygone soit vide. Indiquez une largeur de bordure de 0,5.
 
@@ -53,7 +53,7 @@ Utilisez la couche des communes du Pas-de-Calais (*COMMUNES_NPDC)*, allez dans l
 
 Activez l'affichage des tampons et des ombres en cochant les cases des panneaux correspondants.
 
-Dans le panneau *Rendu*, activez la visibilité selon l'échelle avec un maximum de 85.000.
+Dans le panneau *Rendu*, activez la visibilité des étiquettes selon l'échelle avec un maximum de 1:85.000.
 
 ..	figure:: ./fig/etiquettes.png
 	:align: center
@@ -68,26 +68,27 @@ Maintenant déplacez-vous dans l'onglet *Style* et choisissez dans la liste le m
 
 ..	figure:: ./fig/ensemble_regle.png
 	:align: center
-	:scale: 60%
+	:scale: 100%
 
 Occupation des sols
 -------------------
 
 Importez la couche *ocsgen09* depuis *./donnees/vecteurs/occupation_sol* et définissez le mode de rendu comme *Catégorisé*.  Sélectionnez la colonne *THEME09* et cliquez sur le bouton *Classer*.
 
-Nous allons utiliser des symboles et des textures SVG et pour ce faire nous devons indiquer à QGIS dans quel répertoire ils se situent. Ouvrez le menu *Préférences --> Options --> Système* et dans le bloc *Chemins SVG*, ajoutez le répertoire *./donnees/textures*.
+Nous allons utiliser des symboles et des textures SVG et pour ce faire nous devons indiquer à QGIS dans quel répertoire ils se situent.
 
-Double-cliquez sur la classe des terres cultivées, cliquez sur l'icône **+** et choisissez *Remplissage SVG* comme *Type de symbole*. DAns le cadre d'aperçus, sélectionnez le symbole *cereale*. Adaptez la taille de la largeur de texture.
+Ouvrez le menu *Préférences --> Options --> Système* et dans le bloc *Chemins SVG*, ajoutez le répertoire *./donnees/textures*.
 
-Double-cliquez sur la classe des zones urbaines, faites la même manipulation et sélectionnez la texture béton.
+Pour assigner une texture à une classe d'ocuppation, double-cliquez sur la classe dans la section *Style* de la couche puis choisissez *Remplissage SVG* comme type de symbole. 
 
-..	figure:: ./fig/motif_symbole_resultat.png
+Dans le cadre d'aperçus, sélectionnez une texture et indiquez sa largeur en millimètre.
+
+- pour la classe FORETS, utilisez la texture *herbe*
+- pour la classe ZONES URBAINES, utilisez la texture *béton*
+- pour la classe TERRES CULTIVEES, utilisez la texture *agricole* 
+
+..	figure:: ./fig/motif_symbole.png
 	:align: center
 	:scale: 60%
 	
-Nous allons définir deux modes de fusion :
-
-- *layer blending mode* avec *Multiplier* pour définir la transparence de cette couche avec les autres couches du projet
-- *feature blending mode* avec *Lumière douce* pour définir la transparence entre les objets de la couche
-
 Dans l'onglet *Général*, activez la visibilité dépendante de l'échelle et définissez un seuil minimal au 85.000e.

@@ -6,12 +6,14 @@ Ce document est le support de travail de l'atelier QGIS effectué dans le cadre 
 Logiciels utilisés
 --------------------
 
-la version de QGIS utilisée est la 2.2, le système d'exploitation utilisé est [OSGEOLive 7.9](http://live.osgeo.org/en/index.html).
+La version de QGIS utilisée est la 2.2, le système d'exploitation utilisé est la distribution linux OSGEOLive 7.9 (live.osgeo.org).
 
 Données utilisées
 -----------------------------
 
-La totalité des données utilisées dans le cadre de l'atelier sont disponibles au [téléchargement](https://github.com/Jean-Roc/qgis_master_class), les métadonnées accompagnent chaque jeu. Veuillez vous y référer pour vous renseigner sur les conditions d'utilisations.
+La totalité des données utilisées dans le cadre de l'atelier sont disponibles au téléchargement, les métadonnées accompagnent chaque jeu. Veuillez vous y référer pour vous renseigner sur les conditions d'utilisations.
+
+Adresse du dépôt : https://github.com/OSGeo-fr/qgis_master_class
 
 IGN
 ^^^^
@@ -37,9 +39,14 @@ Données d'occupation des sols  de 2009 du Conseil Régional du Nord-Pas de Cala
 
 http://sigale.nordpasdecalais.fr/
 
+BASIAS
+""""""
+
+Base des anciens sites industriels et activités de service.
+
+http://basias.brgm.fr/
+
 Ce document
 ------------
 
 La documentation est disponible sous licence CC BY-SA.
-
-
