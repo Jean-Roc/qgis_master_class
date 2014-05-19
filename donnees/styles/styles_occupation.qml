@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.2.0-Valmiera" minimumScale="0" maximumScale="250001" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-  <renderer-v2 attr="THEME09" symbollevels="0" type="categorizedSymbol">
+<qgis version="2.2.0-Valmiera" minimumScale="1" maximumScale="100001" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+  <renderer-v2 attr="THEME09" symbollevels="1" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="AUTRES ESPACES ARTIFICIALISES" label="AUTRES ESPACES ARTIFICIALISES"/>
       <category symbol="1" value="FORETS ET MILIEUX SEMI-NATURELS" label="FORETS ET MILIEUX SEMI-NATURELS"/>
@@ -9,7 +9,6 @@
       <category symbol="4" value="TERRES CULTIVEES" label="TERRES CULTIVEES"/>
       <category symbol="5" value="ZONES HUMIDES" label="ZONES HUMIDES"/>
       <category symbol="6" value="ZONES URBAINES" label="ZONES URBAINES"/>
-      <category symbol="7" value="" label=""/>
     </categories>
     <symbols>
       <symbol alpha="1" type="fill" name="0">
@@ -25,15 +24,33 @@
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="1">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_unit" v="MM"/>
-          <prop k="color" v="85,170,127,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
-          <prop k="width_border" v="0.26"/>
+        <layer pass="1" class="SVGFill" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="pattern_width_unit" v="MM"/>
+          <prop k="svgFile" v="herbe.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
+          <prop k="svgOutlineWidth_expression" v="svgOutlineWidth_expression"/>
+          <prop k="svg_outline_width_unit" v="MM"/>
+          <prop k="width" v="40"/>
+          <symbol alpha="1" type="line" name="@1@0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="penstyle" v="solid"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width" v="0.26"/>
+              <prop k="width_unit" v="MM"/>
+            </layer>
+          </symbol>
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="2">
@@ -61,15 +78,33 @@
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="4">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_unit" v="MM"/>
-          <prop k="color" v="185,123,92,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
-          <prop k="width_border" v="0.26"/>
+        <layer pass="0" class="SVGFill" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="pattern_width_unit" v="MM"/>
+          <prop k="svgFile" v="agricole.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
+          <prop k="svgOutlineWidth_expression" v="svgOutlineWidth_expression"/>
+          <prop k="svg_outline_width_unit" v="MM"/>
+          <prop k="width" v="50"/>
+          <symbol alpha="1" type="line" name="@4@0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="penstyle" v="solid"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width" v="0.26"/>
+              <prop k="width_unit" v="MM"/>
+            </layer>
+          </symbol>
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="5">
@@ -85,27 +120,33 @@
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="6">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_unit" v="MM"/>
-          <prop k="color" v="195,195,195,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
-          <prop k="width_border" v="0.26"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="fill" name="7">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_unit" v="MM"/>
-          <prop k="color" v="8,48,107,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
-          <prop k="width_border" v="0.26"/>
+        <layer pass="0" class="SVGFill" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="pattern_width_unit" v="MM"/>
+          <prop k="svgFile" v="beton.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
+          <prop k="svgOutlineWidth_expression" v="svgOutlineWidth_expression"/>
+          <prop k="svg_outline_width_unit" v="MM"/>
+          <prop k="width" v="120"/>
+          <symbol alpha="1" type="line" name="@6@0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="penstyle" v="solid"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width" v="0.26"/>
+              <prop k="width_unit" v="MM"/>
+            </layer>
+          </symbol>
         </layer>
       </symbol>
     </symbols>
@@ -251,8 +292,8 @@
     <property key="labeling/xOffset" value="0"/>
     <property key="labeling/yOffset" value="0"/>
   </customproperties>
-  <blendMode>6</blendMode>
-  <featureBlendMode>9</featureBlendMode>
+  <blendMode>0</blendMode>
+  <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
   <displayfield>AREA</displayfield>
   <label>0</label>
@@ -284,10 +325,10 @@
     <edittype labelontop="0" editable="1" type="0" name="PERIMETER"/>
     <edittype labelontop="0" editable="1" type="0" name="THEME09"/>
   </edittypes>
-  <editform></editform>
+  <editform>/media/sf_stockage/SIA/github/qgis_master_class/donnees/projets</editform>
   <editforminit></editforminit>
   <featformsuppress>0</featformsuppress>
-  <annotationform></annotationform>
+  <annotationform>/media/sf_stockage/SIA/github/qgis_master_class/donnees/projets</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
