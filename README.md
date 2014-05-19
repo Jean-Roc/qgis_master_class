@@ -1,5 +1,5 @@
-Atelier QGIS - FOSS4G-fr 2013
-==========================
+Atelier QGIS - FOSS4G-fr 2014
+=============================
 
 Descriptif :
 ------------
@@ -12,11 +12,9 @@ Participants :
 --------------
 
 * Jean-Roc Morreale
+* Yves Barthélemy
 
 Documentation :
 ---------------
 
 * Rédigé en Sphinx/RST
-
-Sources :
-------------
