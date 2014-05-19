@@ -1,0 +1,18 @@
+(dp0
+S'ALG_CREATOR'
+p1
+VJean-Roc MORREALE
+p2
+sS'ALG_DESC'
+p3
+VGénère une couche d'ombrage pour la région
+p4
+sVVECTORLAYER_REGION
+p5
+VNature : Vecteur\u000aType : Polygone
+p6
+sVRASTERLAYER_BDALTI
+p7
+VNature : Raster\u000aType : Elevation
+p8
+s.
